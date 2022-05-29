@@ -1,0 +1,36 @@
+/* body styling */
+body{
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.primary-heading{
+    color: green;
+}
+
+#welcome{
+    background-color: #F4F4f4;
+}
+
+#welcome p span{
+    font-weight: bold;
+}
+
+#about{
+    color: white;
+}
+
+/* Multiple Selectors */
+#welcome, #about{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Nested Selectors */
+#welcome p{
+    font-size: 20px;
+}
+

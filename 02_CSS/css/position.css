@@ -1,0 +1,52 @@
+body{
+    color: white;
+    height:2000px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #333;;
+}
+
+#box-1{
+    background: #355C7D;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* 앞으로 가져오기: 숫자가 클수록 앞에 위치 */
+    z-index: 1;
+}
+
+#box-2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background: #6C5B7B;
+}
+
+#box-3{
+    position: absolute;
+    background: #C06C84;
+    bottom: 100px;
+    right: 100px;
+}
+
+#box-4{
+    /* 스크롤을 내려도 고정되어 있음 */
+    position: fixed;
+    background: #F67280;
+}
+
+#box-5{
+    /* 메뉴만들때 많이 사용 */
+    position: sticky;
+    top: 0;
+    background: #FFC7C7;
+}

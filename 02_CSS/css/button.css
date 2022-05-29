@@ -1,0 +1,28 @@
+a{
+    color: #68A7AD;
+    text-decoration: none;
+}
+
+a:hover{
+    color: coral;
+}
+
+/* a:visited{
+    color: green;
+} */
+
+/* Button Styling */
+.btn{
+    background-color: #4c6ca0;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #f4f4f4;
+    background: #446190;
+}

@@ -1,0 +1,23 @@
+.hello{
+    /* Class가 h1을 오버라이드 함 */
+    color: #4D4C7D;
+}
+
+h1{
+    /* 오버라이드 !important */
+    color: coral !important;
+    /* 아예 사라지는 기능 */
+    /* display: none; */
+    /* 위치는 지키고 있되 시야에서 사라짐 별로 안 씀*/
+    /* visibility: hidden; */
+}
+
+h2{
+    /* RGB */
+    color: rgb(123,192,43);
+}
+
+h3{
+    /* Hex */
+    color: #4D4C7D;
+}

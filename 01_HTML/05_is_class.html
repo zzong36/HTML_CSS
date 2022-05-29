@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Div, span, id and class</title>
+</head>
+<body>
+    <div id="main-header">
+        <header>
+            <h1>My Website</h1>
+            <h2>A site about me</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- id is individual to that section while class can repeat -->
+        <section>
+            <article id="about" class="card">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                    Aliquid sint labore aperiam fugiat debitis corporis,
+                    <!-- div class는 줄을 바꾸지만 span class는 줄을 바꾸지 않음 -->
+                    <span class="enhance">
+                        architecto illum corrupti sapiente eos? Aliquam magnam earum iusto,<br> 
+                    </span>
+                    praesentium consequatur culpa quidem obcaecati explicabo?</p>
+            </article>
+                
+                <article id="contact" class="card">
+                    <h3>Contact me</h3>
+                    
+                    <ul>
+                        <li>Address: 50 Main st, Boston MA</li>
+                        <li>Phone: (555) 555-5555</li>
+                        <li>Email: me@somethingcool.com</li>
+                    </ul>
+                </article>
+        </section>
+            
+
+        <footer>
+            <p>Copyright 2019</p>
+        </footer>
+
+    </div>
+</body>
+</html>

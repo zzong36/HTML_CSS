@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+}
+
+.clr{
+    clear: both;
+}
+
+.box{
+    background-color: #f4f4f4;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    /* Text Align */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    text-align: justify;
+}
+
+#box-2{
+    /* flex 사용하기 전에 사용하던 것 */
+    float: left;
+    width: 65%;
+}
+
+#box-3{
+    float: right;
+    width: 30%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 30px auto;
+}

@@ -1,0 +1,21 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+background-color: #999B84;
+color: white;
+border: 1px solid black;
+width: 500px;
+
+/* Padding shorthand = top, right, bottom, left */
+/* Padding shorthand = top/bottom right/left */
+/* Margin도 동일한 원리 적용 */
+padding: 10px 20px;
+
+/* margin on all sides */
+margin: 10px;
+}
